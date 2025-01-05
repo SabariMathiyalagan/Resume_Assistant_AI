@@ -28,11 +28,11 @@ The application uses a React-based frontend and a Flask backend. The AI models i
 
 **Flowchart**
 
- ![Flowchart\](Flowchart.jpg)
+ ![Flowchart](Flowchart.jpg)
 
 **Walkthrough**
 
- ![Walkthrough\](Walkthrough.mp4)
+ ![Walkthrough](Walkthrough.mp4)
 
 ## **Compatibility**
 
