@@ -32,7 +32,7 @@ The application uses a React-based frontend and a Flask backend. The AI models i
 
 **Walkthrough**
 
- ![Walkthrough](Walkthrough.mp4)
+ ![Walkthrough](Walkthrough.gif)
 
 ## **Compatibility**
 
