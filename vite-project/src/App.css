@@ -1,0 +1,120 @@
+/* Homepage.css */
+
+:root {
+  --primary-color: #004aad;
+  --secondary-color: #0073e6;
+  --background-color: #f4f7fc;
+  --text-color: #333;
+  --button-color: #004aad;
+  --button-hover-color: #002e73;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.homepage-header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: var(--primary-color);
+  color: white;
+}
+
+.homepage-title {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.homepage-tagline {
+  margin: 0.5rem 0 0;
+  font-size: 1.25rem;
+}
+
+.homepage-main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.homepage-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card-description {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+.card-button {
+  background: var(--button-color);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.card-button:hover {
+  background: var(--button-hover-color);
+}
+
+.homepage-footer {
+  text-align: center;
+  padding: 1rem;
+  background: var(--primary-color);
+  color: white;
+  font-size: 0.875rem;
+}
+.login-btn {
+  background-color: var(--background-color);
+  border-color: var(--secondary-color);
+  color: var(--secondary-color);
+}
+.login-btn:hover {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  color: var(--background-color);
+}
+.nav {
+  background-color: var(--background-color);
+}
+
+.brand {
+  color: var(--secondary-color);
+  text-decoration:  none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: "flex";
+  align-items: "center";
+}
+
+
+.icon {
+  margin-right: "10px";
+  color: var(--secondary-color);
+}

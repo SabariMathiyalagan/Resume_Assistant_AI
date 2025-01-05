@@ -1,0 +1,39 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+
+uploads/
+flask_session/
+
+# Flask instance folder
+instance/
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+
+# .env file containing sensitive data
+.env
+
+# Logs
+*.log
+
+# IDE/Editor folders and settings (e.g., VSCode, PyCharm)
+.vscode/
+.idea/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# MacOS Finder
+.DS_Store
+
+# Windows system files
+Thumbs.db
